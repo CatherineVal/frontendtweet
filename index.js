@@ -7,7 +7,7 @@ app.use(express.static('public'));
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || 3000);
 
 app.listen(app.get('port'), console.log('Server on port 4000'));
 
